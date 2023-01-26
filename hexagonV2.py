@@ -13,3 +13,5 @@ for i in range(a-2):
     unutrasnjirazmak-=2
     print(spacenum*" "+"*"+unutrasnjirazmak*" "+ "*")
 print(space+stars)
+
+#
