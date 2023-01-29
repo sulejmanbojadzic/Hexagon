@@ -1,17 +1,17 @@
-a=int(input("Unesite duzinu stranice : "))
+a=int(input("Enter the side lenght : "))
 space=" "*(a-1)
 spacenum=len(space)
-unutrasnjirazmak=2
+innerspace=2
 stars="*"*a
 print(space+stars)
 for i in range(a-1):
     spacenum-=1
-    unutrasnjirazmak+=2
-    print(spacenum*" "+"*"+unutrasnjirazmak*" "+ "*")
+    innerspace+=2
+    print(spacenum*" "+"*"+innerspace*" "+ "*")
 for i in range(a-2):
     spacenum+=1
-    unutrasnjirazmak-=2
-    print(spacenum*" "+"*"+unutrasnjirazmak*" "+ "*")
+    innerspace-=2
+    print(spacenum*" "+"*"+innerspace*" "+ "*")
 print(space+stars)
 
 #
