@@ -1,7 +1,7 @@
 a=int(input("Enter the side lenght : "))
 space=" "*(a-1)
 spacenum=len(space)
-innerspace=2
+innerspace=a-2
 stars="*"*a
 print(space+stars)
 for i in range(a-1):
