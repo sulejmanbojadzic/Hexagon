@@ -12,7 +12,6 @@ while True:
     space=space.replace(" ","",1)
     innerspace=innerspace+"  "
     print(space+"*"+innerspace+"*")
-
 #Second half:
 while True:
     if space == space_copy.replace(" ","",1):
@@ -20,10 +19,5 @@ while True:
     space=space+" "
     innerspace=innerspace.replace(" ","",2)
     print(space+"*"+innerspace+"*")
-
 #Last row:
-    
 print(space_copy+stars)
-
-
-#
