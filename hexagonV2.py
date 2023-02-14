@@ -13,5 +13,3 @@ for i in range(a-2):
     innerspace-=2
     print(spacenum*" "+"*"+innerspace*" "+ "*")
 print(space+stars)
-
-#
