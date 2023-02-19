@@ -46,6 +46,6 @@ namespace OOP
                 str1=str1+str;
             }
             return str1;
-        } 
+        }
     }
 }
