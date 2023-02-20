@@ -6,6 +6,7 @@ namespace OOP
     {
         static void Main(string[] args)
         {
+            System.Console.Write("Enter side length : ");
             int sidelen=Convert.ToInt32(Console.ReadLine());
             string spaces=multistr(" ",sidelen-1);
             int spacenum = sidelen-1;
